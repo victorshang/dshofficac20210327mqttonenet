@@ -1,0 +1,25 @@
+{
+    "name": "DSHOfficAC20210327MQTTOneNet",
+    "version": "1.0.1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "makecode bit_oper": "github:victorshang/pxt-makecode-bit_oper#v1.0.5",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
+        "makecode_mqtt": "github:victorshang/pxt-makecode-mqtt#v1.0.13"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
